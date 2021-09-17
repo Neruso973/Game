@@ -10,18 +10,21 @@
 </head>
 <body>
     <div class="selections">
-        <button class="selection">✊</button>
-        <button class="selection">✋</button>
-        <button class="selection">✌️</button>
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌️</button>
     </div>
-    <div class="reult"></div>
-    <div>
-        You
-        <span class="result_score">0</span>
-    </div>
-    <div>
-        Com
-        <span class="result_score">0</span>
+    <div class="results">
+        <div>
+            You
+            <span class="results_score">0</span>
+        </div>
+        <div>
+            Computer
+            <span class="results_score">0</span>
+        </div>
+        <div class="results_selection winner">✊</div>
+        <div class="results_selection">✌️</div>
     </div>
 </body>
 </html>
