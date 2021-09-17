@@ -27,10 +27,11 @@ body {
     justify-items: center;
     align-items: center;
 }
-.results_selection {
+.result-selection {
     opacity: .5;
 }
-.results_selection.winner {
+  
+.result-selection.winner {
     opacity: 1;
     font-size: 1.5em;
 }
