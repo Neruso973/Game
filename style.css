@@ -1,0 +1,19 @@
+body {
+    background-color: #091921;
+}
+.selections {
+    display: flex;
+    justify-content: center;
+}
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 5em;
+    transition: 100ms;
+}
+.selection:hover {
+    transform: scale(1.2);
+}
